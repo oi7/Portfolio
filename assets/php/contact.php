@@ -6,13 +6,13 @@
     $message = ( $_REQUEST['user-message'] ) ? $_REQUEST['user-message'] : '';
     $status = $_REQUEST['user-status'];
 
-    $to = 'youremail@domain.com';
+    $to = 'oi7@mit.edu';
     $message = 'Name: '.$name.'<br /> Email: '.$email.'<br />Message: '.$message;
 
     $subject = 'Subject';
 
     $headers = "From: You company <".$to.">". "\r\n" .
-                  "Return-Path: You company <info@yousite.com>\r\n".
+                  "Return-Path: You company <oi7@mit.edu>\r\n".
                   "Reply-To: You company <".$to.">" . "\r\n" .
                   "MIME-Version: 1.0\r\n".
                   "Content-type: text/html; charset=iso-8859-1\r\n".

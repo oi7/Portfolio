@@ -24,6 +24,8 @@ Author:	Ukieweb
 /* ------------------
     General setting
 --------------------*/
+
+
 *{
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
     font-weight: 300;
@@ -256,6 +258,9 @@ a:hover, a:visited, a:focus, a:active{
     margin-top: 24px;
 }
 
+#fullname{
+    font-size: 46px;
+}
 
 
 /* ------------------
